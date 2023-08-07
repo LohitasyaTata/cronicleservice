@@ -73,7 +73,7 @@
         "engine": "S3",
         "AWS": {
 
-            "region": "ap-southeast-1",
+            "region": "<region>",
             "correctClockSkew": true,
             "maxRetries": 5,
             "httpOptions": {
@@ -85,7 +85,7 @@
             "keyPrefix": "cronicle_service",
             "fileExtensions": true,
             "params": {
-                "Bucket": "bfl-npd-invamc-cronicle"
+                "Bucket": "<bucketname>"
             }
         }
     },
