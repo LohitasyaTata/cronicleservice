@@ -14,7 +14,7 @@ To minimize this I have dockerized this application into a docker image which ca
 
 Please follow the below steps for the setup.
 
-1) Confire the storage class as AWS S3 bucket and conigure the config.json
+1) Configure the storage class as AWS S3 bucket and conigure the config.json
 
 2) Build the docker file in local system and push in AWS ECR.
 
